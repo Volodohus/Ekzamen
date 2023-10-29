@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Migalka</title>
+</head>
+<body>
+<script>
+    const go = () => {
+        return Math.round(Math.random() * 255)
+    }
+    window.onload = () => {
+    let dance = setInterval(() => {document.body.style.background = `RGB(${go()},${go()},${go()})`}, 500)
+
+    }
+</script>
+
+</body>
+</html>
+
+<!--src = "kod.js" type="text/javascript"-->
